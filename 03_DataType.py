@@ -52,5 +52,17 @@ sampleDictionary = {1: "First", 2: "Second", 3: 3, "A": 4}
 print("printing sample dictionary elements using keys", sampleDictionary[1])
 print("printing sample dictionary elements using keys", sampleDictionary[2])
 print("printing sample dictionary elements using keys", sampleDictionary[3])
-print("printing sample dictionary elements using keys", sampleDictionary["A"]) # if key is string make it in double quotes
+print("printing sample dictionary elements using keys",
+      sampleDictionary["A"])  # if key is string make it in double quotes
 
+# ------------------How to create dictionaries at run time ------------------------
+runTimeDict = {}  # empty dictionary
+
+runTimeDict["firstname"] = "ABC"
+runTimeDict["lastname"] = "DEF"
+
+print("add values to empty dictionary", runTimeDict)
+
+runTimeDict["gender"] = "M"
+
+print("add values to empty dictionary", runTimeDict["gender"])
