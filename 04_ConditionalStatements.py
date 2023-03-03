@@ -47,5 +47,7 @@ for m in range(10):  # This will print  = 0 to 9
 # 3. while Loop in Python
 temp = 4
 while temp > 1:
-    print("While Loop execute with temp value is", temp)
+    if temp != 3:
+        print("While Loop execute with temp value is", temp)
     temp = temp - 1
+print(" while loop finish it's execution")
