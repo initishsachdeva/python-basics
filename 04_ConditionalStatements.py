@@ -51,3 +51,11 @@ while temp > 1:
         print("While Loop execute with temp value is", temp)
     temp = temp - 1
 print(" while loop finish it's execution")
+
+temp1 = 5
+while temp > 1:
+    if temp == 2:
+        break
+    print("While Loop execute with temp1 value is", temp)
+    temp = temp - 1
+print(" while loop finish it's execution")
