@@ -52,10 +52,13 @@ while temp > 1:
     temp = temp - 1
 print(" while loop finish it's execution")
 
-temp1 = 5
-while temp > 1:
-    if temp == 2:
+temp1 = 10
+while temp1 > 1:
+    if temp1 == 9:
+        temp1 = temp1 - 1
+        continue
+    if temp1 == 2:
         break
-    print("While Loop execute with temp1 value is", temp)
-    temp = temp - 1
+    print("While Loop execute with temp1 value is", temp1)
+    temp1 = temp1 - 1
 print(" while loop finish it's execution")
